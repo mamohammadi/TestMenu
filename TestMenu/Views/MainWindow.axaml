@@ -9,7 +9,7 @@
         Title="TestMenu"
         ExtendClientAreaToDecorationsHint="True">
     <DockPanel>
-        <Menu DockPanel.Dock="Top">
+        <Menu DockPanel.Dock="Top" Width="120" HorizontalAlignment="Left">
             <MenuItem Header="_File">
                 <MenuItem Header="_Open..."/>
                 <Separator/>
