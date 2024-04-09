@@ -6,7 +6,8 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="TestMenu.Views.MainWindow"
         Icon="/Assets/avalonia-logo.ico"
-        Title="TestMenu">
+        Title="TestMenu"
+        ExtendClientAreaToDecorationsHint="True">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
